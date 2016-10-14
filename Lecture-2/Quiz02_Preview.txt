@@ -1,0 +1,47 @@
+Quiz02_Preview.txt
+################################################
+Match each of the following english statements with one line of code
+English Statement:
+Replace outliers in numeric vector x
+Replace all low values in x with a lower bound
+Normalize vector x by Min-Max or Range (Feature Scaling)
+Keep only the outliers of vector x
+Remove from data frame x any row that has one or more NAs
+Keep only the rows in data frame x that have one or more NAs
+
+Code:
+x[(x > mean(x) + 2*sd(x)) | (x < mean(x) - 2*sd(x))] <- median(x)
+x <- x[(x < mean(x) + 2*sd(x)) & (x > mean(x) - 2*sd(x))]
+x <- x[(x > mean(x) + 2*sd(x)) | (x < mean(x) - 2*sd(x))]
+x <- (x - min(x))/(max(x) - min(x))
+x <- (x - mean(x))/sd(x)
+x[x < mean(x) - 2*sd(x)] <- mean(x) - 2*sd(x)
+x[x < mean(x) + 2*sd(x)] <- mean(x) - 2*sd(x)
+x[x < mean(x) - 2*sd(x)] <- mean(x) + 2*sd(x)
+x[x < mean(x) + 2*sd(x)] <- mean(x) + 2*sd(x)
+x <- x == NA
+x <- x[!complete.cases(x),]
+x <- x != NA
+x <- na.omit(x)
+################################################
+Match each of the following lines of code with one english statement 
+Code:
+x[x > mean(x) + 2*sd(x)] <- mean(x) + 2*sd(x)
+x <- (x - mean(x))/sd(x)
+
+English Statement:
+replace high outliers with an upper bound
+replace low outliers with a lower bound
+z-normalize the values
+perform feature scaling
+################################################
+The following three vectors are the result of creating dummy variables (binarization):
+isred:  c(1, 0, 1, 0, 1, 0, 0, 0)
+ispink:  c(0, 0, 0, 1, 0, 0, 0, 1)
+ismagenta: c(0, 1, 0, 0, 0, 0, 0, 0)
+
+What did the original vector look like?
+################################################
+Simplify the vector x by relabeling categories:
+x <- c("WA", "Washington", "Wash", "UT", "Utah", "Utah", "UT", "Utah", "IO")
+################################################
