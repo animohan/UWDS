@@ -1,0 +1,29 @@
+Quiz 04 Normalization Preview
+##########################################################################
+Each row in the following 3 X 2 matrix is a point.
+points <- matrix(c(4, 2, 6, 10, 4, 4), nrow=3)
+    4   10
+    2    4
+    6    4
+The centroid of these points is: 4,6
+##########################################################################
+Given the array of points below, what is the range that would be used for min-max normalization (aka Feature Scaling)?
+points <- matrix(c(5, 7, 2, 1, -1, 0, 1, 1), nrow=4)
+
+Range: 6 (7 - 1)
+	2 (1-(-1))
+
+##########################################################################
+A K-Means clustering employs z-normalization.  Prior to clustering the mean and standard deviation of the 1st dimension were determined from the original, non-normalized points (pts):
+mu1.pts <- mean(pts[,1])
+sigma1.pts <- sd(pts[,1])
+
+After this K-means clustering, the mean and standard deviation of the 1st dimension were determined from the normalized centroids:
+mu1.ctr <- mean(ctr[,1])
+sigma1.ctr <- sd(ctr[,1])
+
+How do you de-normalizes the 1st dimension of the centroids (ctr)?
+Multiple by the sigma1.pts and add mu1.pts
+##########################################################################
+Comment on denormalization of points in the K-Means algorithm (like KMeansNorm
+##########################################################################

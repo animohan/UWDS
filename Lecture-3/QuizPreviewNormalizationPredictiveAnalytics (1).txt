@@ -1,0 +1,77 @@
+##########################################################################
+Each row in the following 3 X 2 matrix is a point.  points <- matrix(c(10, 4, 4, 4, 2, 6), nrow=3) The centroid of these points is:  
+	(ANS) c(6, 4)
+	c(7, 3, 5)
+	c(5)
+	c(7, 4, 4)
+##########################################################################
+Centroids are represented as an (n X 2) matrix, where n is the number of centroids.  Mean and standard deviation were determined from the original, non-normalized 2D points.  These mean and standard deviation are represented as vectors mu and sigma respectivley.  The length of these vectors is 2 because the points are 2-dimensional.
+
+Which of the following de-normalizes a z-normalization in R?
+(ANS)centroids[,1] <- centroids[,1] * sigma[,1] + mu[,1]; centroids[,2] <- centroids[,2] * sigma[,2] + mu[,2]
+	centroids[,1] <- (centroids[,1] - mu[,1])/sigma[,1]; centroids[,2] <- (centroids[,2] - mu[,2])/sigma[,2]
+	centroids <- centroids * sigma + mu
+	centroids <- (centroids - mu)/ sigma
+##########################################################################
+Denormalization of points in the KMeans algorithm:
+	Is necessary when you want to show which point belongs to which cluster
+	Requires the range and min value of both the points and the centroids that were derived from the K Means algorithm
+	Is accomplished by multiplying the normalized points with the range of the normalized points and then adding the min of the normalized points.
+	Is unnecessary, because the denormalized points are the input
+##########################################################################
+Classification
+	supervised learning to predict a continuous number
+	unsupervised learning to link items by a transaction
+	(ANS) supervised learning to predict a category
+	unsupervised learning to sort data into categories
+##########################################################################
+Estimation / Regression
+	(ANS) supervised learning to predict a continuous number
+	unsupervised learning to sort data into categories
+	unsupervised learning to find data that differ from the rest
+	supervised learning to predict a category
+##########################################################################
+Segmentation
+	unsupervised learning to find data that differ from the rest
+	supervised learning to predict a continuous number
+	 (ANS) unsupervised learning to cluster data into groups
+	unsupervised learning to link items by a transaction
+##########################################################################
+Clustering
+	unsupervised learning to find data that differ from the rest
+	<ANS> unsupervised learning to cluster data into groups
+	supervised learning to predict a category
+	supervised learning to predict a continuous number
+##########################################################################
+Association
+	unsupervised learning to cluster data into groups
+	<ANS> unsupervised learning to link items by a transaction
+	supervised learning to predict a continuous number
+	supervised learning to predict a category
+##########################################################################
+Market Basket Analysis
+	supervised learning to predict a continuous number
+	<ANS> unsupervised learning to link items by a transaction
+	None of these answers
+	unsupervised learning to find data that differ from the rest
+##########################################################################
+Anomaly Detection
+	None of these answers
+	unsupervised learning to sort data into categories
+	<ANS> unsupervised learning to find data that differ from the rest
+	unsupervised learning to link items by a transaction
+##########################################################################
+A time series dataset is designed specifically for
+	<ANS> Forecasting
+	Association
+	Classification
+	Estimation
+	Segmentation
+##########################################################################
+A nested table or a table where a transaction ID is paired with items is used for
+	Forecasting
+	<ANS> Association
+	Classification
+	Estimation
+	Segmentation
+##########################################################################

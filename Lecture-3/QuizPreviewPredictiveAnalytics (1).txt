@@ -1,0 +1,80 @@
+################################################
+################################################
+Predictive Analytics
+################################################
+The target outcome for a regression (an estimation) is:
+The target outcome for a classification is:
+The target outcome for a segmentation is:  
+################################################
+################################################
+Schema
+################################################
+You can often identify a proxy column. Which characteristics might help you identify a proxy column?
+<ANS> matches target column
+
+-----------------
+Which vectors count as constant columns?
+-----------------
+A Proxy Column is an example of:
+-----------------
+A Proxy Column will affect a classification or estimation in this manner:
+<ANS> data from proxy column is not available for pred. Its result matches outptur result
+-----------------
+A Constant Column will affect a classification or estimation in this manner:
+<ANS> None
+-----------------
+A Key Column (ID Column) will affect a classification or estimation in this manner:
+<ANS> In princple should not affect but could find random pattern and Negatively impact results
+-----------------
+What is training Data?
+-----------------
+What is test Data?
+-----------------
+What should you think of when the model predicts the training data and test data outcomes perfectly?
+<ANS> overfitting.
+-----------------
+What should you think of when the model predicts the training data outcomes very well but not the test data outcomes?
+################################################
+#################################################
+Classification Accuracy:  Confusion Matrix / ROC
+################################################
+What is a Confusion Matrix?
+-----------------
+What is True Positive?
+-----------------
+What is False Positive?
+-----------------
+What is a square partitioned into four smaller squares that lists left to right and top to bottom:  True Positive, False Positive, False Negative, True Negative?
+-----------------
+What is an ROC Chart?
+-----------------
+What is True Negative?
+-----------------
+What is False Negative?
+-----------------
+The ROC is constructed by varying the threshold and plotting:
+-----------------
+False Positive Rate is 0.75
+
+Answers:
+TP > FN
+TP < FP
+FP > FN
+TN < FP
+-----------------
+
+################################################
+################################################
+The coefficient of Determination in a Regression (Estimation)
+################################################
+The coefficient of determination:
+
+Is an accuracy measure for estimations
+Determines outcomes of classifications
+-----------------
+The coefficient of determination:
+
+Can be greater than one
+Can be less than zero
+Must be between zero and one
+-----------------

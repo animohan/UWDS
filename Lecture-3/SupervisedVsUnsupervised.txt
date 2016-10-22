@@ -1,0 +1,44 @@
+Difference between Supervised and Un-Supervised Learning
+by Ernst Henle
+Copyright 2016 by Ernst Henle
+
+In both supervised and unsupervised learning the form of the answer is given.  But, in unsupervised learning the outcome is not set by an expert.  
+
+In Genernal
+
+Unsupervised:
+The algorithm and the (training) data determine the outcomes.
+The (training) data are evaluated without input from an expert.     
+
+Supervised:
+The training data are evaluated together with an expert label.  The algorithm tries to finds a pattern that predicts the expert label from the training data.   
+
+Example 1:  Clustering vs predicting a cluster label
+
+Unsupervised:
+Initial x,y data set is clustered into 3 clusters.  The clusters form and we name the clusters A, B, and C. 
+Later a point with new x and new y is matched to one of these clusters.
+
+Explanation:
+Why isn't this clustering supervised learning?  The cluster membership or labels were not supplied to the algorithm.  In other words, there was no expert label.  But, a cluster label is returned from the new x and new y.  The answer is:  The new x and new y were matched to the clusters.  The matching is not part of the model creation but is application of the model.   
+
+Supervised:
+Each point in the initial x,y data set is labeled A, B, or C.  The classification algorithm is trained to predict A, B, or C based on the initial x,y data set and the labels A, B, and C.  
+Later a point with new x and new y is used to predict the label.
+
+Explanation:
+How can clustering be a supervised learning model?  The answer is:  The cluster labels are now expert labels.  The purpose of the model is to predict a cluster based on the new x and new y value.
+
+Example 2:  A linear regression as un-supervised learning
+
+Unsupervised:
+You could create a model that takes an initial set of x,y pairs to create a line by linear regression.  If your goal was to determine the Pearson’s r of this dataset, then it is unsupervised learning because you did not train the model to predict a desired or expert Pearson’s r.  You can even compare a new x,y pair to that same line and ask:  What is the distance of the new x,y point to that line?  That example would also be an example of using a model from unsupervised learning on new data.
+
+Supervised:
+Given the same data and model, the model would be the result of supervised learning if you supply a new x value and ask:  What is the predicted y value based on my new x value and that line? 
+
+Conclusion:
+How can the model suddenly become a supervised learning model?  The answer is:  The y-values of the initial data set are now thought of as expert labels.  The purpose of the model is to predict a y value based on a given x-value.  
+
+Copyright 2016 by Ernst Henle
+
