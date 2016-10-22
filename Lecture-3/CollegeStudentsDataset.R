@@ -22,15 +22,24 @@ PartitionWrong <- function(dataSet, fractionOfTest = 0.3)
   return(dataSetSplit)
 }
 
+
+
 PartitionExact <- function(dataSet, fractionOfTest = 0.3)
 {
   # ********** Add code here
+  numberOfRows = nrow(dataSet)
+  numberOfTestRows = fractionOfTest*numberOfRows
+  testFlag = sample(numberOfRows, numberOfTestRows)
+  testingData = dataSet[testFlag,]
+  trainingData = dataSet[-testFlag,]
+  dataSetSplit <- list(trainingData=trainingData, testingData=testingData)
   return(dataSetSplit)
 }
 
+
+
 PartitionFast <- function(dataSet, fractionOfTest = 0.3)
 {
-  # ********** Add code here
   random = runif(nrow(dataSet))
   testFlag = random<= fractionOfTest
   testingData <- dataSet[testFlag, ]
@@ -40,3 +49,4 @@ PartitionFast <- function(dataSet, fractionOfTest = 0.3)
   
   return(dataSetSplit)
 }
+
