@@ -42,7 +42,6 @@ b. Right end of the graph corresponds to threshold of 1
 c. We cannot directly see the exact point on ROC graph that corresponds to 0.5 threshold. But the point can be derived by calculations.
 
 Q4. 
-Q4a. 
 False Postive Rate: 0.4  
 True Postive Rate: 0.8 
 Accuracy: 0.7: 
@@ -60,7 +59,4 @@ Predicted
 	 Not-Ill	    FN 	100	 TN  300
 
 Cannot say what the probability threshold is.
-
-Q4.b
-
 
