@@ -1,0 +1,215 @@
+################################################
+################################################
+Predictive Analytics
+################################################
+The target outcome for a regression (an estimation):
+
+is a numeric attribute
+is a nominal attribute
+is a binary classification
+does not exist
+-----------------
+The target outcome for a classification:
+
+is a numeric attribute
+is a nominal attribute
+is a binary classification
+does not exist
+-----------------
+The target outcome for a segmentation:  
+
+is a numeric attribute
+is a nominal attribute
+is a binary classification
+does not exist
+-----------------
+
+################################################
+################################################
+Schema
+################################################
+You can often identify a proxy column. Which of the following three characteristics might help you identify a proxy column:
+1.	The name of the proxy column is similar to the target column
+2.	The proxy column has significant correlation (Pearson's R) with the outcome column
+3.	The proxy column was derived after the outcome was noted
+
+Answers:
+Statements 1 and 2
+Statements 1 and 3
+Statements 2 and 3
+Statements 1, 2, and 3
+none of the statements
+-----------------
+The following statements creat a vector z.  Which of these vectors is not a constant column
+
+Answers:
+z <- c(7,7,7,7,7,7,7,7,7,7)
+z <- 1:23
+z <- rep(NA, 4)
+z <- c("a", "a", "a", "a", "a")
+-----------------
+A Proxy Column is an example of:
+
+Answers:
+Target Leakage
+A Constant Column
+Bad Predictor
+A Key Column
+-----------------
+A Proxy Column will affect a classification or estimation in this manner:
+
+Answers:
+Accuracy will probably increase
+Accuracy will probably decrease
+No effect
+Accuracy will be significantly below 0.5
+-----------------
+A Constant Column will affect a classification or estimation in this manner:
+
+Answers:
+Accuracy will probably increase
+Accuracy will probably decrease
+No effect
+Accuracy will be significantly below 0.5
+-----------------
+A Key Column (ID Column) will affect a classification or estimation in this manner:
+
+Answers:
+Accuracy will probably increase
+Accuracy will probably decrease
+No effect
+The target outcome will have the values of the Key column
+-----------------
+Training Data
+
+Answers:
+Data used for accuracy testing 
+Data used by a model as input for predictions
+Data used to make a model
+Data that needs to be tested before use
+-----------------
+Test Data
+
+Answers:
+Data used for accuracy testing
+Data used by a model as input for predictions
+Data used to make a model
+Data that needs to be tested before use
+-----------------
+What should you think of when the model predicts the training data and test data outcomes perfectly:
+
+Answers:
+Overfitting
+Proxy Column
+Fortuitous Patterns in a Key Column
+A Constant Column
+-----------------
+What should you think of when the model predicts the training data outcomes very well but not the test data outcomes:
+
+Answers:
+Overfitting
+Proxy Column
+Fortuitous Patterns in a Key Column
+A Constant Column
+-----------------
+When applying a model to Training Data and to Test Data, the following is common:
+
+Answers:
+The model predicts better on the training data than on the test data
+The model predicts better on the test data than on the training data
+The model is just as accurate on the the training data as it is on the test data
+Model accuracy cannot be assessed on either training or test data
+-----------------
+
+################################################
+#################################################
+Classification Accuracy:  Confusion Matrix / ROC
+################################################
+Confusion Matrix
+
+Answers:
+ROC Chart
+Correct Predictions for a classification
+Test Data that lead to incorrect predictions
+A tool to assess a classification model
+-----------------
+True Positive
+
+Answers:
+A correct prediction
+The actual value is Negative
+A correct prediction of a Negative
+The actual value is Positive but the prediction was wrong
+-----------------
+False Positive
+
+Answers:
+A correct prediction
+The actual value is Negative
+A correct prediction of a Negative
+The actual value is Positive but the prediction was wrong
+-----------------
+A square partitioned into four smaller squares that lists left to right and top to bottom:  True Positive, False Positive, False Negative, True Negative
+
+Answers:
+Test Data that lead to incorrect predictions
+Correct Predictions for a classification
+Confusion Matrix
+ROC Chart
+-----------------
+ROC Chart
+
+Answers:
+Confusion Matrix
+A chart for a mythological bird-of-prey
+A chart of classifications for different populations
+A tool to assess a classification model
+-----------------
+True Negative
+
+Answers:
+A correct prediction
+An incorrect prediction
+An inaccurate prediction
+An incorrect prediction of a Positive
+-----------------
+False Negative
+
+Answers:
+A correct prediction
+An incorrect prediction
+An inaccurate prediction
+A correct prediction of a Negative
+-----------------
+The ROC is constructed by varying the threshold and plotting:
+
+Answers:
+True positives vs threshold
+True positives vs false positives
+True positives vs Overall Population
+True positive rate vs false positive rate
+-----------------
+False Positive Rate is 0.75
+
+Answers:
+TP > FN
+TP < FP
+FP > FN
+TN < FP
+-----------------
+
+################################################
+################################################
+The coefficient of Determination in a Regression (Estimation)
+################################################
+The coefficient of determination:
+
+Is an accuracy measure for estimations
+Determines outcomes of classifications
+-----------------
+The coefficient of determination:
+
+Can be greater than one
+Can be less than zero
+Must be between zero and one
+-----------------

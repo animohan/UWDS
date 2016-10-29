@@ -1,0 +1,12 @@
+Q1a.
+The model is created and evaluated on the training data. The parameters of the model are tuned for getting higher accuracy on the training data. Hence it is expected that the model will work well on the training data. However, the test data is new and the model is not optimized for the test model. Therefore, the training model will always have lower error than test model.
+
+Q1b.
+The best way to partition the data is to randomize the rows of the dataframe and pick a subset for training.
+The training set should be larger than test set so that the model can be trained with maximum available data
+
+Q1c.
+Run the model on both the dataset and compare the predicted results. Generally, the test data will have a higher error rate than the training data. 
+
+Q2.
+Train: 300: 149 Cold and 151 healthy
