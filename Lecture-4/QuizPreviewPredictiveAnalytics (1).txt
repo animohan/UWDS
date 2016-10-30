@@ -65,7 +65,7 @@ What is True Negative?
 <ANS> True actual result but predicted as false/-ve
 -----------------
 What is False Negative?
-<ANS> Actual false, predicted false
+<ANS> Actual false, actually true false
 -----------------
 The ROC is constructed by varying the threshold and plotting:
 -----------------
@@ -75,7 +75,7 @@ Answers:
 TP > FN
 TP < FP
 FP > FN
-TN < FP
+TN < FP <ANS> TN = 0.25
 -----------------
 
 ################################################
