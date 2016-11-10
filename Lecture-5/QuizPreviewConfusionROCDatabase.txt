@@ -1,0 +1,131 @@
+Quiz 06a
+
+----------------------------------
+Question 0
+False Positive Rate is 0.75
+
+Answers:
+TP > FN
+TP < FP
+FP > FN
+TN < FP
+----------------------------------
+Question 1
+False Positive Rate is 0.6
+
+Answers:
+TPR > FPR
+Recall > Precision
+TP + TN > FP + FN
+TN < FP
+----------------------------------
+Question 2
+Accuracy is 0.6
+
+Answers:
+TPR > FPR
+Recall > Precision
+TP + TN > FP + FN
+TN < FP
+----------------------------------
+Question 3
+What is the FPR given a threshold of 0.6
+Actual:	         Yes,  No,  No,  No,  No, Yes, Yes
+Probability of Yes: 0.1, 0.2, 0.4, 0.5, 0.7, 0.7, 0.8
+----------------------------------
+Question 4
+What is the TPR given a threshold of 0.3
+Actual:	         Yes,  No,  No,  No,  No, Yes, Yes
+Probability of Yes: 0.1, 0.2, 0.4, 0.5, 0.7, 0.7, 0.8
+----------------------------------
+Question 5
+Charle Atan has developed a new test for credit card fraud.  A positive test identifies a perpetrator of credit card fraud.  The accuracy of the test was tested by Nai-Eve Sukker.  She found that the test was 99.9% accurate.  She was advised by her data scientist to use another accuracy measure, namely:
+----------------------------------
+#############################################
+Quiz 06b
+----------------------------------
+Question 1
+CAP Theorem was formulated by 
+----------------------------------
+Question 2
+Hadoop (HDFS) documents are consistent even if a data node becomes unresponsive.  In response:
+
+Answers:
+Hadoop may become unavailable
+Hadoop uses eventual consistency
+Hadoop looses fault tolerance
+Hadoop enforces availability, consistency, and fault tolerance
+----------------------------------
+Question 3
+Isolation (ACID)
+
+Answers:
+All the changes of a transaction will happen or none of them will happen
+Database constraints and column relations to other data are maintained.  
+Transactions occur sequentially
+----------------------------------
+Question 4
+Atomic (ACID)
+
+Answers:
+All the changes of a transaction will happen or none of them will happen
+Database constraints and column relations to other data are maintained.  
+Transactions occur sequentially
+----------------------------------
+Question 5
+Consistent (ACID)
+
+Answers:
+All the changes of a transaction will happen or none of them will happen
+Database constraints and column relations to other data are maintained.  
+Transactions occur sequentially
+----------------------------------
+Question 6
+Edgar (Ted) Codd invented
+
+Answers:
+	relational model for database management
+	who cares?
+	the internet together with Tim Berners-Lee
+	relational algebra
+	the Cartesian product with Rene Descartes
+----------------------------------
+Question 7
+A declarative language for the relational model
+
+Answers:
+	relational algebra
+	matrix algebra
+	relational calculus like SQL
+	Any procedural language that is also imperative
+----------------------------------
+Question 8
+Relation
+
+Answers:
+	A binary operation in relational algebra. A Join where every row of the first operand occurs at least once
+	A row, an observation
+	Graphical representation of information transfer or movement
+	Table but every row is unique
+----------------------------------
+Question 9
+The number of items in a tuple
+
+Answers:
+	Attribute
+	Arity
+	States
+	Closure
+----------------------------------
+Question 10
+The operation on an operand produces an operand of the same type.  E.g. Relational algebra operations consume and produce relations. 
+
+Answers:
+
+	Attribute
+	Arity
+	States
+	Closure
+----------------------------------
+
+
