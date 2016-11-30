@@ -1,0 +1,51 @@
+############################################
+Quiz Preview on EAV and Sparse Matrices
+############################################
+EAV stands for
+############################################
+A matrix primarily populated by values of zero or nulls.   Usually represented by a 2D table with n columns where n or n-1 is the dimensionality.
+############################################
+A hyper-rectangle that contains data entries has at least this many dimensions 
+############################################
+| A | B | C | D |
+-----------------
+| 2 | Q |1.1| 7 |
+| 2 | R |1.2| 5 |
+| 1 | T |1.3| 7 |
+Mark the incorrect statement:
+
+Each row represents a point in 4-dimensional space
+Each row represents an entry of column D in a 3-dimensional matrix described by dimensions A, B, & C 
+Each column represents a dimension in 4-dimensional space
+Three columns represent dimensions in a three dimensional matrix.  The other column represents a value in the 3D matrix.  
+Each row represents a dimension
+############################################
+The following is an EAV representation of a sparse multi-dimensional matrix.
+| R | C | M |
+| 1 | X | 1 |
+| 1 | Z | 1 |
+| 1 | N | 8 |
+| 2 | X | 4 |
+| 2 | Z | 1 |
+| 2 | N | 6 |
+| 3 | X | 1 |
+| 3 | Z | 3 |
+| 3 | N | 5 |
+What does the sparse multi-dimensional matrix look like?
+############################################
+The following is an EAV representation of a sparse multi-dimensional matrix.
+| R | C | M |
+| 1 | X | 1 |
+| 1 | Y | 1 |
+| 1 | Z | 1 |
+| 1 | N | 7 |
+| 2 | X | 1 |
+| 2 | Y | 2 |
+| 2 | Z | 4 |
+| 2 | N | 9 |
+| 3 | X | 3 |
+| 3 | Y | 2 |
+| 3 | Z | 4 |
+| 3 | N | 5 |
+What does the sparse multi-dimensional matrix look like?
+############################################

@@ -1,0 +1,47 @@
+############################################
+Quiz on NoSQL and Hadoop
+############################################
+SQL-like language for Hive that uses MapReduce
+############################################
+Transfers data between Hadoop and a relation database.
+############################################
+Machine learning algorithms for Hadoop
+############################################
+How many blocks will be created for a file that is 270 Mb. The default block size is 32 Mb and the replication factor is 2
+############################################
+The namenode distinguishes between a "dead" datanode and a network failure that prevents communiction by: 
+############################################
+The namenode died in a cluster that contained the namenode, a secondary namenode and 30 datanodes.  As a consequence:
+############################################
+Hadoop is based on these two papers:
+############################################
+What does the JobTracker do?
+############################################
+What does the TaskTracker do?
+############################################
+What does the NameNode do?
+############################################
+Explain the meaning of each letter in the database acronym "ACID".
+############################################
+Explain the meaning of each letter in Eric Brewer's acronym "CAP".
+############################################
+Does the C in CAP mean the same as the C in ACID?
+############################################
+What is consistent hashing?
+############################################
+Who were Jeffrey Dean, Sanjay Ghemawat, Doug Cutting, Mike Cafarella, Howard Gobioff, Shun-Tak Leung, Grace Hopper, Ted Codd, and Eric Brewer?
+############################################
+Explain the meaning of each letter in the acronym "HDFS".
+############################################
+What are Name Node, Data Node, Secondary Data Node, Job Tracker, and Task Tracker in Hadoop?
+############################################
+What are Mahout, Sqoop, Hive, HiveQL, Pig, Pig Latin, Flume, YARN, Hue, HDFS, Map Reduce?
+############################################
+What is wrong with the following data/information/control flow?
+The client creates a checksum of the data.  The client sends the checksum and the data to the Name node.  The name node directs the data and checksum to a data node determined by consistent hashing.  The data node stores the data on its drive.  The data node creates a checksum of the data.  The data node compares its checksum to the checksum from the client.  If the two checksums are the same, then the data node tells the name node that the data have arrived and that they are stored.  The name node registers or remembers where the data are stored.  
+############################################
+
+
+
+
+
